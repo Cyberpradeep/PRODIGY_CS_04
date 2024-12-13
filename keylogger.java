@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class SimpleKeyLogger {
+public class KeyLogger {
     public static void main(String[] args) {
         try (FileWriter logFile = new FileWriter("keylogs.txt", true);
              Scanner scanner = new Scanner(System.in)) {
